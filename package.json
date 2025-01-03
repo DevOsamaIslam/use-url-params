@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DevOsamaIslam/use-url-params.git"
+    "url": "https://github.com/DevOsamaIslam/use-url-param.git"
   },
   "peerDependencies": {
     "react": "^19.0.0",

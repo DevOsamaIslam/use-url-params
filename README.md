@@ -1,4 +1,4 @@
-# use-url-params
+# use-url-param
 
 A TypeScript React hook to manage URL parameters as state. This utility is designed for simplicity and flexibility, offering an intuitive way to work with query parameters in modern React applications.
 
@@ -11,19 +11,19 @@ A TypeScript React hook to manage URL parameters as state. This utility is desig
 ## Installation
 
 ```bash
-npm install use-url-params
+npm install use-url-param
 ```
 
 or
 
 ```bash
-yarn add use-url-params
+yarn add use-url-param
 ```
 
 ## Usage
 
 ```tsx
-import useUrlParams from "use-url-params";
+import useUrlParams from "use-url-param";
 
 function App() {
   const { urlParams, updateUrlParams, removeUrlParam } = useUrlParams({
@@ -61,12 +61,12 @@ function App() {
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DevOsamaIslam/use-url-params.git
+   git clone https://github.com/DevOsamaIslam/use-url-param.git
    ```
 
 2. Navigate to the project folder:
    ```bash
-   cd use-url-params
+   cd use-url-param
    ```
 
 3. Install dependencies:
