@@ -1,5 +1,5 @@
 {
-  "name": "use-url-params",
+  "name": "use-url-param",
   "version": "0.0.1",
   "description": "A React hook for managing URL search parameters seamlessly.",
   "main": "dist/useUrlParams.js",
