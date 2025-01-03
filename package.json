@@ -1,0 +1,29 @@
+{
+  "name": "use-url-params",
+  "version": "0.0.1",
+  "description": "A React hook for managing URL search parameters seamlessly.",
+  "main": "dist/useUrlParams.js",
+  "types": "dist/useUrlParams.d.ts",
+  "keywords": [
+    "react",
+    "hook",
+    "url",
+    "search params",
+    "react-router-dom"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevOsamaIslam/use-url-params.git"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-router-dom": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "@types/react-router-dom": "^5.3.3",
+    "typescript": "^5.7.2"
+  }
+}
