@@ -1,2 +1,4 @@
 src
 demo
+.vscode
+tsconfig.json
