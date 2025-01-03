@@ -23,10 +23,10 @@ yarn add use-url-param
 ## Usage
 
 ```tsx
-import useUrlParams from "use-url-param";
+import useUrlParam from "use-url-param";
 
 function App() {
-  const { urlParams, updateUrlParams, removeUrlParam } = useUrlParams({
+  const { urlParams, updateUrlParams, removeUrlParam } = useUrlParam({
     defaults: { page: "1" },
   });
 

@@ -2,8 +2,8 @@
   "name": "use-url-param",
   "version": "0.0.5",
   "description": "A React hook for managing URL search parameters seamlessly.",
-  "main": "dist/useUrlParams.js",
-  "types": "dist/useUrlParams.d.ts",
+  "main": "dist/useUrlParam.js",
+  "types": "dist/useUrlParam.d.ts",
   "keywords": [
     "react",
     "hook",

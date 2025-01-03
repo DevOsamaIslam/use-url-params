@@ -1,4 +1,4 @@
-import useUrlParams from "../../src/useUrlParams"
+import useUrlParam from "../../src/useUrlParam"
 
 interface PossibleParams {
   page: string
@@ -7,13 +7,13 @@ interface PossibleParams {
 }
 const App = () => {
   const { urlParams, updateUrlParams, removeUrlParam } =
-    useUrlParams<PossibleParams>({
+    useUrlParam<PossibleParams>({
       defaults: { page: "1" },
     })
 
   return (
     <div style={{ fontFamily: "Arial, sans-serif", padding: "20px" }}>
-      <h1 style={{ color: "#333" }}>useUrlParams Demo</h1>
+      <h1 style={{ color: "#333" }}>useUrlParam Demo</h1>
 
       <div style={{ marginBottom: "20px" }}>
         <h2>Current URL Parameters:</h2>

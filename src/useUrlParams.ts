@@ -1,21 +1,21 @@
 import { useMemo } from "react"
 import { useSearchParams } from "react-router-dom"
 
-interface UseUrlParamsConfig<T> {
+interface useUrlParamConfig<T> {
   defaults?: Partial<T>
 }
 
 type UrlParams<T> = Partial<Record<keyof T, string>>
 
-type UseUrlParamsReturn<T> = {
+type useUrlParamReturn<T> = {
   urlParams: UrlParams<T>
   updateUrlParams: (newParams: Partial<T>) => void
   removeUrlParam: (key?: keyof T) => void
 }
 
-function useUrlParams<T = Record<string, string>>(
-  config: UseUrlParamsConfig<T> = {}
-): UseUrlParamsReturn<T> {
+function useUrlParam<T = Record<string, string>>(
+  config: useUrlParamConfig<T> = {}
+): useUrlParamReturn<T> {
   const { defaults } = config
   const [searchParams, setSearchParams] = useSearchParams()
 
@@ -51,4 +51,4 @@ function useUrlParams<T = Record<string, string>>(
   return { urlParams, updateUrlParams, removeUrlParam }
 }
 
-export default useUrlParams
+export default useUrlParam
